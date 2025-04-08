@@ -1,4 +1,4 @@
-getSamba <- function(version = NA, bfc = BiocFileCache::BiocFileCache()){
+getSamba <- function(version = NA, bfc = NULL){
 
 
     if(is.na(version)){
